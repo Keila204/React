@@ -1,0 +1,186 @@
+.Container-instagram{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    background-color: #252525;
+    min-height: 100vh;
+    height: 100%;
+    padding: 10px 0px 0px;
+}
+.pesquisa{
+    display: flex;
+    flex-direction: column;
+    padding: 28px;
+}
+.marca{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.marca img{
+    width: 45px;
+}
+.opcoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 130px;
+
+}
+.opcoes div{
+    display: flex;
+    margin-top: 19px;
+}
+.opcoes img{
+    margin-right: 11px;
+    width: 22px;
+    height: 22px;
+    color: #fff;
+}
+.conteudo-insta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 130vh;
+}
+.conteudo-insta .notificacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #373737;
+    width: 160px;
+    padding: 3px 3px;
+    border-radius: 12px;
+    border: none;
+    font-weight: bold;
+   height: 30px;
+}
+.conteudo-insta .perfis{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 97vh;
+    margin-top: 25px;
+}
+.perfis img{
+    border: 2px solid #E90167;
+    border-radius: 120px;
+}
+.dados-insta{
+    margin-top: 50px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(180deg, #373737, #252525,);
+    padding: 50px;
+    align-items: center;
+    border-radius: 3px;
+    
+}
+.dados-insta .user-insta{
+    display: flex;
+    flex-direction: row;
+}
+.dados-insta .user-insta input{
+    width: 255px;
+    height: 24px;
+    margin-top: 10px;
+}
+#tempo{
+    width: 100px;
+    margin-right: 11px;
+}
+.dados-insta div{
+    display: flex;
+    margin: 3px;
+    flex-direction: row;
+}
+.dados-insta input{
+    color: #373737;
+    font-size: 17x;
+    border-radius: 4px;
+    border: none;
+    background-color: #E0E0E0;
+    margin-left: 4px;
+}
+.avatar input{
+    width: 420px;
+    height: 24px;
+    margin-bottom: 2px;
+    margin-top: 10px;
+}
+.desc input{
+    width: 420px;
+    height: 90px;
+    margin-right: 18px ;
+    padding-bottom: 70px;
+}
+.post-insta input{
+    width: 260px;
+    height: 24px;
+    margin-top: 10px;
+}
+#post{
+    margin-left:20px ;
+}
+#tempo1{
+        width: 89px;
+}
+.dados-insta button{
+    margin-left: 57px;
+    width: 423px;
+    border: none;
+    border-radius: 4px;
+    background-color: #C60844;
+    padding: 7px;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 580;
+    cursor: pointer;
+}
+/////// Exibir informaçoes:
+.dados-post{
+    width: 260px;
+    margin-bottom: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.dados-post p{
+    font-weight: bold;
+}
+.dados-post #tempo{
+    color: rgb(63, 63, 63);
+    font-weight: 600;
+}
+.dados-post img{
+    border-radius: 200px;
+    height: 40px;
+    margin-right: 10px;
+}
+.postagem-insta #post1{
+    width: 100vh;
+    margin-bottom: 15px;
+}
+.icones-insta{
+    padding: 4px;
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.icones-insta img{
+    width: 30px
+}
+.comentarios{
+    display: flex;
+    flex-direction: row;
+    
+}
+
