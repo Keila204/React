@@ -1,0 +1,143 @@
+
+
+.page-Netflix {
+    
+    .main-netflix {
+        display: flex;
+        flex-direction: column;
+        
+
+        max-width: 100%;
+
+    }
+
+    .cont-netflix {
+        display: flex;
+        flex-direction: column;
+
+        background-image: url('../../../public/image\ friends.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        color: white;
+
+        padding: 0.1rem 1.5rem;
+        max-width: 100%;
+        min-height: 100vh;
+    }
+
+    .cont-netflix h3 {
+        margin-left: 4rem;
+    }
+
+    .cabecalho-netflix {
+        display: flex;
+        justify-content: space-between;
+
+        margin-bottom: 14rem;
+    }
+
+    .cont-links_cabecalho {
+        display: flex;
+        align-items: center;
+    }
+
+    .cont-links_cabecalho div {
+        margin-right: 1.3rem;
+    }
+
+    .cont-links_cabecalho h2 {
+        margin-right: 1.3rem;
+    }
+
+    .cont-infos_input_e_login {
+        display: flex;
+        align-items: center;
+    }
+
+    .cont-infos_input_e_login div{
+        margin-left: 1rem;
+    }
+
+    .cont-infos_input_e_login div:nth-child(5){
+        display: flex;
+        align-items: center;
+    }
+
+    .cont-infos_input_e_login p {
+        margin-left: 1rem;
+    }
+
+    .cont-input_e_buscar {
+        display: flex;
+        align-items: center;
+
+        border: 1px solid #E8E8E8;
+        border-radius:  0.3em;
+
+        max-width: 80%;
+        max-height: 5vh;
+
+        padding: 0.2rem 0.3rem;
+    }
+
+    .cont-input_e_buscar div:nth-child(2) {
+        margin-right: 0.5rem;
+
+        cursor: pointer;
+    }
+
+    input {
+        font-weight: 700;
+
+        background: none;
+
+        color: white;
+
+        border: none;
+
+        outline: none;
+
+        min-width: 280px;
+        
+        height: 4vh;
+    }
+
+    ::placeholder {
+        color: #E8E8E8;
+    }
+
+    .cont-infos {
+        margin-bottom: 7vh;
+        margin-left: 4rem;
+
+        max-width: 330px;
+    }
+
+    .cont-infos h1 {
+        font-size: 50px;
+        margin-bottom: -1rem;
+    }
+
+    .button-Assistir {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        color: black;
+        background-color: #E7E7E7;
+
+        border-radius: 0.2em;
+
+        font-weight: 600;
+
+        width: 25%;
+
+        padding: 0.5rem 1.8rem;
+    }
+
+    .button-Assistir img {
+        width: 15px;
+    }
+
+}

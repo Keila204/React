@@ -1,0 +1,23 @@
+
+.Page-Lista_Netflix {
+    
+    background-color: black;
+    
+
+    .cont-posters-netflix {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+
+    .cont-posters-netflix div {
+        margin: 1rem 0.5rem 0px 0.5rem;
+    }
+
+    .cont-posters-netflix img {
+        max-width: 200px;
+    }
+
+
+}

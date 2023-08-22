@@ -1,0 +1,17 @@
+.cabecalho-mae {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: white;
+
+    .cabecalho {
+        display: flex;
+        justify-content: space-between;
+
+        color: #C2C2C2;
+
+        padding-left: 3rem;
+    }
+
+
+}
