@@ -1,0 +1,277 @@
+.filme {
+    text-align: center;
+
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #fff;
+        padding: 5px;
+      }
+
+    .fundo {
+        background-color: #F5F6FA;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 92vh;
+    }  
+
+    .filme-secao {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .filme-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        width: 480px;
+        height: 530px;
+        padding: 0px;
+        box-shadow: 0px 0px 10px rgb(116, 116, 116);
+        border-radius: 10px;
+
+        position: fixed;
+        top: 25%;
+
+        .filme-card-cima {
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items: start;
+
+            width: 100%;
+            height: 160px;
+            padding: 10px 40px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+
+            background-image: url(../../../public/assets/images/FundoFilme.png);
+
+            .image {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+
+                padding: 5px 10px;
+                
+                background-color: #66344A;
+                border-radius: 10px;
+            }
+
+            .image > h1 {
+                font-size: 15px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: white;
+                font-weight: 600;
+            }
+        }
+
+        .filme-card-baixo {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+
+            width: 100%;
+            height: 100%;
+            padding: 15px 40px;
+
+            .Titulo {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+
+                width: 100%;
+                height: 30px;
+            }
+
+            .Titulo h1 {
+                font-size: 15px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: rgb(59, 59, 59);
+                font-weight: 600;
+            }    
+            
+            .filme-procurar {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: start;
+
+                width: 100%;
+                height: 45px;
+                padding: 0px;
+                margin-bottom: 20px;
+                border-radius: 5px;
+                border: solid 1px #C5BC4D;
+            }
+
+            .filme-procurar button {
+                border: none;
+                height: 100%;
+                width: 50px;
+            }
+            .filme-procurar input {
+                width: 90%;
+                height: 50%;
+                padding: 20px;
+                border: none;
+                
+            }
+            .filme-procurar input:focus {
+                box-shadow: 0 0 0 0;
+                outline: none;
+                border: none;
+            }
+            .filme-caracters {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                width: 100%;
+                padding: 0px;
+            }
+            .filme-caracters {
+                font-size: 8px;
+                color: #C5BC4D;
+            }
+            .filme-pesquisado {
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                align-items: center;
+
+                width: 100%;
+                height: 200px;
+                padding: 10px 0px;
+                overflow-y: auto; 
+            }
+
+                ::-webkit-scrollbar {
+                    width: 10px;
+                }
+                  
+                ::-webkit-scrollbar-track {
+                    background-color: transparent;
+                }
+                
+                ::-webkit-scrollbar-thumb {
+                    background-color: #e0e0e0;
+                    border-radius: 20px;
+                }
+
+            .filme-result {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                width: 100%;
+                padding: 0px 5px;
+            }
+
+            .filme-result > h1 {
+                font-size: 15px;
+            }
+
+            .filmes-codigo {
+                display: flex;
+                flex-direction: row;
+                justify-content: start;
+                align-items: center;
+
+                width: 65px;
+                height: 100%;
+                margin-right: 20px;
+            }
+
+            .filmes-nome {
+                display: flex;
+                flex-direction: row;
+                justify-content: start;
+                align-items: center;
+
+                width: 130px;
+                height: 100%;
+                margin-right: 30px;
+            }
+
+            .filmes-data {
+                display: flex;
+                flex-direction: row;
+                justify-content: start;
+                align-items: center;
+
+                width: 80px;
+                height: 100%;
+            }
+        }
+
+        .filmes {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            width: 100%;
+            height: 50px;
+            padding: 0px 20px;
+        }
+        .filmes:hover {
+            background-color: #C5BC4D;
+            border-radius: 10px;
+            box-shadow: 0px 0px 8px rgb(194, 194, 194)
+        }
+
+        .filmes:hover h1 {
+            color: white;
+        }
+
+        .filmes h1 {
+           font-size: 13px;
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           color: #333333;
+           font-weight: 520;
+        }
+
+        .filmes > .filmes-imagem {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            width: 45px;
+            height: 45px;
+            border-radius: 100px;
+            padding: 5px;
+            transition: 0.5s;
+        }
+
+        .filmes:hover > .filmes-imagem {
+            background-color: #C5BC4D;
+        }
+
+        .filmes > .filmes-imagem > img {
+            display: none;
+            height: 100%;
+            width: 100%;
+            border-radius: 100px;
+            transition: 0.5s;
+        }
+
+        .filmes:hover > .filmes-imagem > img {
+            display: flex;
+        }
+            
+    }
+}
