@@ -1,0 +1,183 @@
+.Sorvetes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    .Sorvetes-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: 480px;
+        height: 500px;
+        box-shadow: 0px 0px 10px rgb(116, 116, 116);
+        border-radius: 10px;
+
+        position: fixed;
+        top: 25%;
+
+        .Sorvetes-card-up {
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            align-items: start;
+
+            width: 100%;
+            height: 160px;
+            padding: 10px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+
+            background-image: url(../../../public/assets/image/sorvete.png);
+
+            .Logo {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+
+                padding: 5px 10px;
+                background-color: #66344A;
+                border-radius: 10px;
+            }
+
+            .Logo > h1 {
+                font-size: 15px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: white;
+                font-weight: 600;
+            }
+        }
+
+        .Sorvetes-card-down {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+
+            width: 100%;
+            height: 100%;
+            padding: 20px;
+
+            .Titulo {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+
+                width: 100%;
+                height: 30px;
+            }
+
+            .Titulo h1 {
+                font-size: 15px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: rgb(59, 59, 59);
+                font-weight: 600;
+            }    
+            
+            .Sorvetes-card-adic {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+
+                width: 100%;
+                height: 50px;
+                margin-bottom: 20px;
+            }
+
+            .Sorvetes-card-adic input {
+                width: 100%;
+                height: 100%;
+                padding: 10px;
+                border: solid 1px rgb(202, 202, 202);
+            }
+
+            .Sorvetes-card-adic > .item {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+
+                width: 130px;
+                height: 100%;    
+            }
+
+            .Sorvetes-card-adic > .preco {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+
+                width: 170px;
+                height: 100%;
+                border-radius: 5px;
+                
+                .preco-rs {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+
+                    width: 70px;
+                    height: 100%;
+                    
+                    border: solid 1px rgb(209, 209, 209);
+                }
+
+                .preco-rs h1 {
+                    font-size: 15px;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    color: rgb(133, 133, 133);
+                    font-weight: 400;
+                }
+            }
+
+            .Sorvetes-card-adic > .adicionar {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+
+                width: 110px;
+                height: 100%;
+                background-color: #66344A;
+                border: none;
+                border-radius: 10px;
+
+                font-size: 15px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: white;
+            }
+
+            .Sorvetes-card-itens {
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                align-items: center;
+
+                width: 100%;
+                height: 200px;
+                overflow-y: auto;    
+            }
+
+            ::-webkit-scrollbar {
+                width: 10px;
+            }
+              
+            ::-webkit-scrollbar-track {
+                background-color: transparent;
+            }
+            
+            ::-webkit-scrollbar-thumb {
+                background-color: #66344A;
+                border-radius: 20px;
+            }
+        }
+    }
+}
